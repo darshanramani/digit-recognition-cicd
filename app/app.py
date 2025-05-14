@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load the trained model
-model = load_model("../models/model.h5")
+model = load_model("/home/user/Downloads/Darshan_data/Portfolio/digit-recognition-cicd/models/model.h5")
 
 # Set up the Streamlit app interface
 st.title("Handwritten Digit Recognition")
